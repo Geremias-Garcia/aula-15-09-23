@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section {
+    border: 1px solid;
+    border-radius: 10px;
+    padding: 20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+
+    margin: auto;
+    background-color: #FFDAB9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+
+    padding: 20px;
+}
+
+form fieldset{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+    padding: 10px;
+}
+
+.dados-pessoais div{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.dados-pessoais div input{
+    border-radius: 5px;
+    color: red;
+    padding: 5px;
+}
+
+.dados-pessoais div input::placeholder {
+    color: blue;
+}
+
+input[type="text"] {
+    border: 1px solid yellow;
+}
+
+input[type="text"]:focus {
+    outline: 2px solid orange;
+    border: none;
+}
+
+.dados-profissionais .mod-trabalho, .mensagem, .experiencia {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.form-botoes {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.form-botoes input {
+    border: none;
+    width: 70px;
+    height: 40px;
+}
+
+.form-botoes input[type="reset"]{
+    border: 1px solid red;
+    background-color: transparent;
+    color: red;
+}
+
+.form-botoes input[type="submit"]{
+    background-color: red;
+    color: white;
+    font-weight: bold;
+}
+
+.form-botoes input[type="submit"]:hover{
+    background-color: rgb(44, 35, 124);
+}
